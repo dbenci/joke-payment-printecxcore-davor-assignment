@@ -2,3 +2,12 @@ stages:
     -   build
     -   test
     -   push-to-master
+
+build:
+    stage: build
+
+test:
+    stage: test
+    
+push-to-master:
+    stage: push-to-master
