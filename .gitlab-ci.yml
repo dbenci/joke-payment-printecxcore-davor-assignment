@@ -1,0 +1,4 @@
+stages:
+    -   build
+    -   test
+    -   push-to-master
