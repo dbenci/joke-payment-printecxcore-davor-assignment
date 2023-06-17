@@ -1,0 +1,14 @@
+name: main
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    
+  tests:
+    runs-on: self-hosted
+    
+  push-to-master:
+    runs-on: self-hosted
+  
