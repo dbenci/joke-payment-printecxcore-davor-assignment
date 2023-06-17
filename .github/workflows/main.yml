@@ -5,10 +5,14 @@ on: [push]
 jobs:
   build:
     runs-on: self-hosted
-    
+    steps:
+      - name: "temp" 
   tests:
     runs-on: self-hosted
-    
+    steps:
+      - name: "temp" 
   push-to-master:
     runs-on: self-hosted
+    steps:
+      - name: "temp" 
   
